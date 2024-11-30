@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
-    <link rel="stylesheet" href="../beranda/style.css"> 
+    <link rel="stylesheet" href="beranda/style.css"> 
 </head>
 <body>
     <header class="l-header">
@@ -25,7 +25,7 @@
     <main>
         <div class="container">
             <div class="kanan">
-                <img src="../beranda//maskot.png" alt="Maskot" class="kanan__img">
+                <img src="beranda/maskot.png" alt="Maskot" class="kanan__img">
             </div>
             <div class="kiri">
                 <div class="judul">
