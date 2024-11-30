@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("beranda\ bg.png") no-repeat;
+    background-size: cover;
+    background-color: currentColor;
+  }
+  
+  header {
+    width: 100%;
+    padding: 15px;
+    margin-top: -55px;
+    background-color: rgba(247, 247, 247, 0.329);
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .nav {
+    font-family: "DM Serif Display";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -7%;
+    margin-right: -7%;
+  }
+  
+  .nav__logo {
+    font-family: DM Serif Display;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .nav__list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .nav__link.active {
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgba(5, 4, 4, 0.692);
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    max-width: 1200px;
+    background-color: rgba(247, 247, 247, 0.329);
+  
+    margin: 24px auto;
+    border-radius: 20px;
+  }
+  p {
+    font-family: "Radley";
+    color: #fff;
+    max-width: 90%;
+    font-size: 25px;
+    text-align: le;
+    line-height: 42px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    max-width: 90%;
+    text-shadow: 3px 0px 0px #040c1bf2; /* Properti bayangan teks */
+    color: #9a0213;
+    font-family: "DM Serif Display";
+  }
+  .kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+  }
+  
+  .kanan {
+    width: 40%;
+  }
+  
+  .kanan__img {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: -20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(#5d5188db 0%, #171422db 100%);
+    /* background-color: #007bff; */
+    color: white;
+    font-weight: 800;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Serif Display';
+    font-weight: 500;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
