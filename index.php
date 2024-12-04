@@ -16,7 +16,7 @@ if (!isset($_SESSION['login'])) {
     <link rel="stylesheet" href="beranda/style.css"> 
 </head>
 <body>
-    <header class="l-header">
+    <header>
         <nav class="nav bd-grid">
             <div>
                 <a href="#" class="nav__logo">Honkai Star rail Manager</a>
@@ -24,7 +24,7 @@ if (!isset($_SESSION['login'])) {
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#" class="nav__link active">Beranda</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Enemy</a></li>
+                    <li class="nav__item"><a href="Enemy/Bos1.php" class="nav__link">Enemy</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Character</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Light Cone</a></li>
                 </ul>
