@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    td {
+      border: 1px solid black;
+      text-align: center;
+      width: 100px;
+      height: 100px;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+
+    img {
+      width: 80px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    img.disabled {
+      cursor: not-allowed; /* Tampilan kursor saat gambar dinonaktifkan */
+      opacity: 0.5; /* Efek visual untuk gambar yang tidak aktif */
+    }
+
+    td:hover {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div id="header">
+    <h1 style="text-align: center;">Halo</h1>
+  </div>
+
+  <!-- Tabel untuk menampilkan tanda "+" -->
+  <table>
+    <tr>
+      <td onclick="tempatkanGambar(this)">+</td>
+      <td onclick="tempatkanGambar(this)">+</td>
+      <td onclick="tempatkanGambar(this)">+</td>
+    </tr>
+  </table>
+
+  <!-- Tabel untuk gambar -->
+  <table>
+    <tr>
+      <td><img src="asset/Firefly_splashArt.png" alt="Firefly" onclick="pilihGambar(this)"></td>
+      <td><img src="asset/Jiaoqiu_splashArt.png" alt="Jiaoqiu" onclick="pilihGambar(this)"></td>
+      <td><img src="asset/topaz_splashArt.png" alt="Topaz" onclick="pilihGambar(this)" class="bono"></td>
+    </tr>
+  </table>
+
+  <script>
+    let gambarTerpilih = null; // Variabel untuk menyimpan gambar yang dipilih
+
+    // Fungsi untuk memilih gambar
+    function pilihGambar(img) {
+      if (img.classList.contains('disabled')) {
+        alert("Gambar ini sudah dipilih dan sedang digunakan.");
+        return;
+      }
+
+      gambarTerpilih = img.cloneNode(true); // Membuat salinan gambar
+      img.classList.add('disabled'); // Menandai gambar sebagai tidak aktif
+      alert("Gambar terpilih! Klik pada tanda '+' untuk menempatkan atau menghapus gambar.");
+
+      // Ubah konten <h1> jika gambar memiliki kelas "bono"
+      if (img.classList.contains('bono')) {
+        document.getElementById('header').innerHTML = `
+          <h1 style="text-align: center;">Topaz</h1>
+          <div style="display: flex; max-width: 50%;">
+            <div class="sub-kanan">
+              <div class="gambar" style="display: flex;">
+                <div>
+                  <h6>Element</h6>
+                  <img src="asset/fire.png" alt="" style="height: 70px;">
+                  <h6>Fire</h6>
+                </div>
+                <div>
+                  <h6>Path</h6>
+                  <img src="asset/Hunt.png" alt="" style="height: 70px;background-color: black;">
+                  <h6>Hunt</h6>
+                </div>
+              </div>
+              <div>
+                <p>Deskripsi Singkat: <br>
+                  Salah satu manajer tingkat tinggi "Departemen Investasi Strategis" di bawah Interastral Peace Corporation, dan juga pemimpin dari Tim Piket Utang Khusus</p>
+              </div>
+            </div>
+            <div class="sub-kiri">
+              <img src="asset/Topaz-awk.png" alt="" style="height: 100%;width: auto;">
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Fungsi untuk menempatkan atau menghapus gambar dari sel bertanda "+"
+    function tempatkanGambar(td) {
+      if (td.children.length > 0) { // Jika sel sudah berisi gambar
+        let img = td.querySelector('img'); // Ambil gambar di dalam sel
+        let originalImg = document.querySelector(`img[src='${img.src}']`);
+        if (originalImg) {
+          originalImg.classList.remove('disabled'); // Aktifkan kembali gambar asli
+        }
+        td.innerHTML = "+"; // Hapus gambar dan kembalikan tanda "+"
+        alert("Gambar telah dihapus. Anda dapat memilih gambar lain.");
+      } else if (gambarTerpilih) { // Jika ada gambar terpilih dan sel kosong
+        td.innerHTML = ""; // Bersihkan tanda "+"
+        td.appendChild(gambarTerpilih); // Tempatkan salinan gambar ke sel
+        gambarTerpilih = null; // Reset gambar yang dipilih
+      } else {
+        alert("Pilih gambar terlebih dahulu!");
+      }
+    }
+  </script>
+</body>
+</html>
