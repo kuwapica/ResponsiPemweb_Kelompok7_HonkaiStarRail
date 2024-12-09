@@ -14,8 +14,8 @@
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="../index.html" class="nav__link">Beranda</a></li>
-                    <li class="nav__item"><a href="Enemy/Bos1.html" class="nav__link">Enemy</a></li>
+                    <li class="nav__item"><a href="../index.php" class="nav__link">Beranda</a></li>
+                    <li class="nav__item"><a href="../Enemy/Bos1.php" class="nav__link">Enemy</a></li>
                     <li class="nav__item"><a href="Character/Character.html" class="nav__link active">Game Rules</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Light Cone</a></li>
                 </ul>
@@ -42,7 +42,7 @@
     <footer>
         <nav class="nav bd-grid">
             <div>
-                <button class="B"><a href="#">BACK</a></button>
+                <button class="B"><a href="../index.php">BACK</a></button>
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
