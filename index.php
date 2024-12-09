@@ -25,7 +25,7 @@ if (!isset($_SESSION['login'])) {
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#" class="nav__link active">Beranda</a></li>
                     <li class="nav__item"><a href="Enemy/Bos1.php" class="nav__link">Enemy</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Character</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Game Rules</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Light Cone</a></li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@ if (!isset($_SESSION['login'])) {
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><button><a href="#">Game Rules</a></button></li>
-                    <li class="nav__item"><button><a href="#">START</a></button></li>
+                    <li class="nav__item"><button><a href="Character/Character.php">START</a></button></li>
                 </ul>
             </div>
         </nav>

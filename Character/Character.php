@@ -7,27 +7,6 @@
     <link rel="stylesheet" href="styleChr.css" />
   </head>
   <body>
-    <!-- <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#" class="nav__logo">Honkai Star rail Manager</a>
-        </div>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="../index.html" class="nav__link">Beranda</a></li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Enemy</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link active">Character</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Light Cone</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header> -->
     <main>
       <div class="container">
         <div class="kanan">
@@ -75,7 +54,7 @@
     <footer>
       <nav class="nav bd-grid">
         <div>
-          <button><a href="../index.html">BACK</a></button>
+          <button><a href="../index.php">BACK</a></button>
         </div>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
