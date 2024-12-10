@@ -23,20 +23,6 @@
                     <div>Character 3</div>
                     <div>Light Cone  3</div>
                 </div>
-                <!-- <table>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table> -->
             </div>
             <div class="kiri">
                 <h2>Apakah anda sudah yakin dengan team anda?</h2>
