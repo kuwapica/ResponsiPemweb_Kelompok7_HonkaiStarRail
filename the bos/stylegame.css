@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("beranda\ bg.png") no-repeat;
+    background-size: cover;
+    background-color: currentColor;
+  }
+  
+  .nav {
+    font-family: "DM Serif Display";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 105px;
+  }
+
+  .container {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 98%;
+    /* max-width: 1200px; */
+    background-color: rgba(247, 247, 247, 0.329);
+    /* max-height: 100%; */
+    /* gap: 20px; */
+    margin: 20px auto;
+    border-radius: 40px;
+    padding:40px 300px 40px  300px ;
+  }
+  h1 {
+    text-align: center;
+    font-size: 38px;
+    max-width: 100%;
+    text-shadow: 3px 0px 0px #040c1bf2; /* Properti bayangan teks */
+    color: #9a0213;
+    font-family: "DM Serif Display";
+    white-space: nowrap;
+  }
+  footer {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: -20px;
+  }
+  table {
+    border-collapse: collapse; 
+    width: 90%; 
+    text-align: center; /* Teks rata tengah */
+    margin: auto;
+}
+
+td {
+    border: 3px solid rgba(5, 4, 4, 0.692); /* Border untuk setiap sel */
+    text-align: center; /* Teks di tengah */
+    position: relative; 
+    width: 100px;  /* Tentukan lebar */
+    height: 100px; /* Tentukan tinggi */
+}
+
+td:hover {
+    background-color: rgba(0, 0, 255, 0.2); /* Warna latar belakang saat hover */
+    border: 3px solid blue; /* Border menjadi biru */
+}
+img{
+    display: block;
+    margin: auto;
+    height: 220px;
+    width: 200px;
+    background-color: #e1c8935e;
+    border-radius: 20px;
+    
+}
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(#5d5188db 0%, #171422db 100%);
+    /* background-color: #007bff; */
+    color: white;
+    font-weight: 800;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Serif Display';
+    font-weight: 500;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+ 
