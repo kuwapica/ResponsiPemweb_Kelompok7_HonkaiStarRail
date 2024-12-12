@@ -16,13 +16,13 @@
           <ul class="nav__list">
             <li class="nav__item"><a href="../index.php" class="nav__link">Beranda</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link active">Enemy</a>
+              <a href="../Enemy/Bos2.php" class="nav__link active">Enemy</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Character</a>
+              <a href="../game rules/rules.php" class="nav__link">Game Rules</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Light Cone</a>
+              <a href="../Profil/Profil.php" class="nav__link">Profile</a>
             </li>
           </ul>
         </div>
@@ -32,15 +32,16 @@
       <div class="container">
         <div class="kanan">
           <img
-            src="bos 2.png"
+            src="../Asset/bos 2.png"
             alt="Maskot"
             class="kanan__img"
-            style="height: 502px; width: 300px; margin-left: 60px"
+            style="height: 460px; width: 300px; margin-left: 60px"
           />
         </div>
         <div class="kiri">
           <div class="judul">
             <h1>Profile Bos 2</h1>
+            <h1 style="color: rgb(28, 192, 192);">Borisin Warhead Hoolay</h1>
           </div>
           <p>
             Nama: Borisin warhead Hoolay <br />
@@ -62,9 +63,6 @@
         </div>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li class="nav__item">
-              <button><a href="#">Game Rules</a></button>
-            </li>
             <li class="nav__item">
               <button><a href="Bos3.php">NEXT</a></button>
             </li>

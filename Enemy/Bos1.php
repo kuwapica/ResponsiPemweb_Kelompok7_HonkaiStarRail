@@ -16,13 +16,13 @@
           <ul class="nav__list">
             <li class="nav__item"><a href="../index.php" class="nav__link">Beranda</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link active">Enemy</a>
+              <a href="../Enemy/Bos1.php" class="nav__link active">Enemy</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Character</a>
+              <a href="../game rules/rules.php" class="nav__link">Game Rules</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Light Cone</a>
+              <a href="../Profil/Profil.php" class="nav__link">Profile</a>
             </li>
           </ul>
         </div>
@@ -31,11 +31,12 @@
     <main>
       <div class="container">
         <div class="kanan">
-          <img src="bos 1.png" alt="Maskot" class="kanan__img" />
+          <img src="../Asset/bos 1.png" alt="Maskot" class="kanan__img" />
         </div>
         <div class="kiri">
           <div class="judul">
             <h1>Profile Bos 1</h1>
+            <h1 style="color: rgb(216, 216, 12);">Abundant Ebon Deer</h1>
           </div>
           <p>
             Nama: Abundant Ebon Deer <br />
@@ -55,9 +56,6 @@
         </div>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li class="nav__item">
-              <button><a href="#">Game Rules</a></button>
-            </li>
             <li class="nav__item">
               <button><a href="Bos2.php">NEXT</a></button>
             </li>

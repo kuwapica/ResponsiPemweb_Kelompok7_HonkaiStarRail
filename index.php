@@ -13,7 +13,7 @@ if (!isset($_SESSION['login'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
-    <link rel="stylesheet" href="beranda/style.css"> 
+    <link rel="stylesheet" href="beranda/style.css">
 </head>
 <body>
     <header>
@@ -23,10 +23,10 @@ if (!isset($_SESSION['login'])) {
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link active">Beranda</a></li>
+                    <li class="nav__item"><a href="index.php" class="nav__link active">Beranda</a></li>
                     <li class="nav__item"><a href="Enemy/Bos1.php" class="nav__link">Enemy</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Game Rules</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Light Cone</a></li>
+                    <li class="nav__item"><a href="game rules/rules.php" class="nav__link">Game Rules</a></li>
+                    <li class="nav__item"><a href="Profil/Profil.php" class="nav__link">Profile</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +34,7 @@ if (!isset($_SESSION['login'])) {
     <main>
         <div class="container">
             <div class="kanan">
-                <img src="beranda/maskot.png" alt="Maskot" class="kanan__img">
+                <img src="Asset/maskot.png" alt="Maskot" class="kanan__img" style="height: 450px; width: auto;margin-left: -3px">
             </div>
             <div class="kiri">
                 <div class="judul">
@@ -55,7 +55,6 @@ if (!isset($_SESSION['login'])) {
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><button><a href="#">Game Rules</a></button></li>
                     <li class="nav__item"><button><a href="Character/Character.php">START</a></button></li>
                 </ul>
             </div>
