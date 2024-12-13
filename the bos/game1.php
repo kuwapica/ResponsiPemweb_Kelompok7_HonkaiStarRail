@@ -11,7 +11,7 @@
     <main>
       <div class="container">
             <h1>SESI PERLAWANAN BABAK 1 </h1>
-            <div><img src="bos 1.png" alt=""></div>
+            <div><img src="../Asset/bos 1.png 1.png" alt=""></div>
             <h1 style="color: #D5AE0F;">Abundant Ebon Deer</h1>
             <h1 style="color: #8380FA;">VS</h1>
             <table style="margin-top: 10px;">

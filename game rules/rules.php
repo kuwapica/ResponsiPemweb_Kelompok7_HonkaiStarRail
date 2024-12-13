@@ -16,8 +16,8 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="../index.php" class="nav__link">Beranda</a></li>
                     <li class="nav__item"><a href="../Enemy/Bos1.php" class="nav__link">Enemy</a></li>
-                    <li class="nav__item"><a href="Character/Character.html" class="nav__link active">Game Rules</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Light Cone</a></li>
+                    <li class="nav__item"><a href="../game rules/rules.php" class="nav__link active">Game Rules</a></li>
+                    <li class="nav__item"><a href="../Profil/Profil.php" class="nav__link">Profile</a></li>
                 </ul>
             </div>
         </nav>
@@ -26,7 +26,7 @@
         <div class="kiri">
             <h1>Game Rules!!</h1>
             <div>
-                <ol>
+                <ol >
                     <li>
                         amatilah musuh yang akan kami tampilkan secara singkat. disana kalian akan menemukan fun fact dari musuh yang akan kalian lawan. 
 
@@ -37,7 +37,7 @@
                 </ol>
             </div>
         </div>
-        <div class="kanan"><img src="maskot2.png" alt=""></div>
+        <div class="kanan"><img src="../Asset/maskot2.png" alt=""></div>
     </main>
     <footer>
         <nav class="nav bd-grid">
@@ -46,7 +46,7 @@
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><button><a href="#">NEXT</a></button></li>
+                    <li class="nav__item"><button><a href="../Profil/Profil.php">NEXT</a></button></li>
                 </ul>
             </div>
         </nav>

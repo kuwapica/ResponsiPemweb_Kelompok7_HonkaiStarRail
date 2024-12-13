@@ -26,28 +26,28 @@
             </p>
           </div>
           <div>
-            <table style="margin-top: 15px;">
-              <td onclick="tempatkanGambar(this)">+</td>
-              <td onclick="tempatkanGambar(this)">+</td>
-              <td onclick="tempatkanGambar(this)">+</td>
+            <table style="margin-top: 15px;" id="karakterTerpilih">
+              <td></td>
+              <td></td>
+              <td></td>
             </table>
           </div>
         </div>
         <div class="kiri">
           <table>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/cornucopia.png" alt="" class="Cornucopia"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/collapsing sky.png" alt="" class="CollapsingSky"></td>
+              <td><img  onclick="pilihGambar(this)" src="../Asset/cornucopia.png" alt="" class="Cornucopia"></td>
+              <td><img  onclick="pilihGambar(this)" src="../Asset/collapsing sky.png" alt="" class="CollapsingSky"></td>
               
             </tr>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Adversarial.png" alt="" class="Adversarial"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Chorus.png" alt="" class="Chorus"></td>
+              <td><img  onclick="pilihGambar(this)" src="../Asset/Adversarial.png" alt="" class="Adversarial"></td>
+              <td><img  onclick="pilihGambar(this)" src="../Asset/Chorus.png" alt="" class="Chorus"></td>
               
             </tr>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Amber.png" alt="" class="Amber"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Void.png" alt="" class="Void"></td>
+              <td><img  onclick="pilihGambar(this)" src="../Asset/Amber.png" alt="" class="Amber"></td>
+              <td><img  onclick="pilihGambar(this)" src="../Asset/Void.png" alt="" class="Void"></td>
             </tr>
           </table>
         </div>
@@ -55,9 +55,9 @@
     </main>
     <footer>
       <nav class="nav bd-grid">
-        <div><button><a href="#">NEXT</a></button></div>
+        <div><button><a href="LightConeTL.php">NEXT</a></button></div>
       </nav>
     </footer>
-    <script src="script.js"></script>
+    <script src="scriptLc.js"></script>
   </body>
 </html>

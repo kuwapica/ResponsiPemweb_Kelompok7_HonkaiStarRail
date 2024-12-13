@@ -4,51 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beranda</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="styleLC.css" />
   </head>
   <body>
     <main>
       <div class="container">
-        <div class="kanan">
+        <div class="kanan" id="kanan">
           <div id="sub-kanan">
-
             <div class="judul">
-              <h1>Light Cone</h1>
+              <h1 style="color: yellow">Cornucopia</h1>
             </div>
-            <div class="konten">
-                <table >
-                    <td onclick="tempatkanGambar(this)">+</td>
-                </table>
-                <img src="Asset/corpunia tl.png" alt="">
+            <div
+              style="
+                display: flex;
+                height: 100%;
+                width: 100%;
+                margin-top: 20px;
+                gap: 240px;
+              "
+            >
+              <table style="padding: 0; margin: 0; height: 185px">
+                <td onclick="tempatkanGambar(this)">+</td>
+              </table>
+              <img
+                src="../Asset/corpunia tl.png"
+                alt=""
+                style="padding: 0; margin: 0; height: 185px; width: auto"
+              />
             </div>
-        </div>
-        <div>
+          </div>
+          <div>
             <p>
-                selamat datang pada tahap pemilihan light cone
-                dimana kalian harus mencari pasangan light cone dari path yang sudah ada pada masing - masing karakter yang telah kalian pilih.
-                <br><br>
-                cermatilah agar tidak salah dalam memilih pasangan light cone karena pada tahap inilah pointmu akan dipertaruhkan.
-                <br><br>
-                light cone akan sangat membantumu dalam melawan enemy, 
-                tunjukan kalo team yang kamu bentuk memang layak untuk menang!!
+              Light Cone khusus untuk karakter dengan Path Abundance. <br />
+              Kelangkaan: <i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <br />
+              Skill : Meningkatkan 12% Outgoing Healing saat pengguna
+              melancarkan Skill atau Ultimate. <br />
+              deskripsi Singkat: <br />
+              “Kehidupan adalah keberadaan keteraturan yang melampaui ambang
+              batas tertentu. Kelahirannya adalah jawaban akhir dari alam
+              semesta yang mati, yang menyatakan bahwa zaman kekacauan kuno
+              telah berlalu."
             </p>
           </div>
         </div>
+
         <div class="kiri">
           <table>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/cornucopia.png" alt="" class="Cornucopia"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/collapsing sky.png" alt="" class="CollapsingSky"></td>
-              
+              <td>
+                <img
+                  onclick="pilihGambar(this)"
+                  src="../Asset/cornucopia.png"
+                  alt=""
+                  class="Cornucopia"
+                />
+              </td>
+              <td>
+                <img
+                  onclick="pilihGambar(this)"
+                  src="../Asset/collapsing sky.png"
+                  alt=""
+                  class="CollapsingSky"
+                />
+              </td>
             </tr>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Adversarial.png" alt="" class="Adversarial"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Chorus.png" alt="" class="Chorus"></td>
-              
+              <td>
+                <img
+                  onclick="pilihGambar(this)"
+                  src="../Asset/Adversarial.png"
+                  alt=""
+                  class="Adversarial"
+                />
+              </td>
+              <td>
+                <img
+                  onclick="pilihGambar(this)"
+                  src="../Asset/Chorus.png"
+                  alt=""
+                  class="Chorus"
+                />
+              </td>
             </tr>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Amber.png" alt="" class="Amber"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Void.png" alt="" class="Void"></td>
+              <td>
+                <img
+                  onclick="pilihGambar(this)"
+                  src="../Asset/Amber.png"
+                  alt=""
+                  class="Amber"
+                />
+              </td>
+              <td>
+                <img
+                  onclick="pilihGambar(this)"
+                  src="../Asset/Void.png"
+                  alt=""
+                  class="Void"
+                />
+              </td>
             </tr>
           </table>
         </div>
@@ -56,9 +116,11 @@
     </main>
     <footer>
       <nav class="nav bd-grid">
-        <div><button><a href="#">NEXT</a></button></div>
+        <div>
+          <button><a href="#">NEXT</a></button>
+        </div>
       </nav>
     </footer>
-    <script src="script.js"></script>
+    <script src="scriptTl.js"></script>
   </body>
 </html>

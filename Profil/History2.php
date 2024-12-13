@@ -14,9 +14,9 @@
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="../index.html" class="nav__link">Beranda</a></li>
-                    <li class="nav__item"><a href="../Enemy/Bos1.html" class="nav__link">Enemy</a></li>
-                    <li class="nav__item"><a href="../game rules/rules.html" class="nav__link">Game Rules</a></li>
+                    <li class="nav__item"><a href="../index.php" class="nav__link">Beranda</a></li>
+                    <li class="nav__item"><a href="../Enemy/Bos1.php" class="nav__link">Enemy</a></li>
+                    <li class="nav__item"><a href="../game rules/rules.php" class="nav__link">Game Rules</a></li>
                     <li class="nav__item"><a href="Profil.html" class="nav__link active">Profile</a></li>
                 </ul>
             </div>
@@ -29,9 +29,9 @@
                 <h1>Riwayat Match<span class="dropdown">
                     <span class="dropbtn">v</span>
                     <div class="dropdown-content">
-                        <a href="History1.html">Babak 1</a>
-                        <a href="History2.html">Babak 2</a>
-                        <a href="History3.html">Babak 3</a>
+                        <a href="History1.php">Babak 1</a>
+                        <a href="History2.php">Babak 2</a>
+                        <a href="History3.php">Babak 3</a>
                     </div>
                 </span></h1>
             </div>
@@ -39,7 +39,7 @@
            
             <h1>Profil User</h1>
         </div>
-        <h2>Perlawanan Babak 3</h2>
+        <h2>Perlawanan Babak 2</h2>
         
         <table>
             <tr>
@@ -66,7 +66,7 @@
     <footer>
         <nav class="nav bd-grid">
             <div>
-                <button><a href="Profil.html">BERANDA</a></button>
+                <button><a href="Profil.php">BACK</a></button>
             </div>
             <div>
                 

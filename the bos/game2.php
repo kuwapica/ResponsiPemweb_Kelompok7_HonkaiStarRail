@@ -11,7 +11,7 @@
     <main>
       <div class="container">
             <h1>SESI PERLAWANAN BABAK 2 </h1>
-            <div><img src="bos 2.png" alt="" style="background-color: #a2d4df81;"></div>
+            <div><img src="../Asset/bos 2.png" alt="" style="background-color: #a2d4df81;"></div>
             <h1 style="color: #10c0a3;">Borisin Warhead Hoolay</h1>
             <h1 style="color: #8380FA;">VS</h1>
             <table style="margin-top: 10px;">

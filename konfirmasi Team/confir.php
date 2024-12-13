@@ -23,6 +23,7 @@
                     <div>Character 3</div>
                     <div>Light Cone  3</div>
                 </div>
+               
             </div>
             <div class="kiri">
                 <h2>Apakah anda sudah yakin dengan team anda?</h2>

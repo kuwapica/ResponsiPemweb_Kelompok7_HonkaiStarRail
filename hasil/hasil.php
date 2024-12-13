@@ -13,7 +13,7 @@
             <h1>HASIL PERLAWANAN </h1>
             <h2 style="color: #8380FA;">Team Anda Menang <br> Selamat Team Anda Berhasil Menaklukan Musuh</h2>
             <div class="poin">
-                <img src="maskot2.png" alt="">
+                <img src="../Asset/maskot23.png" alt="">
                 <div class="sub-poin">
                     <div><h1>Total Point</h1></div>
                     <div class="hasil"></div>
