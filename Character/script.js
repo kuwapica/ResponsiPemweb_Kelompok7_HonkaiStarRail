@@ -286,8 +286,10 @@ function tempatkanGambar(td) {
 // }
 function kirimKarakter() {
   const karakterTerpilih = [];
+
+  // Ambil semua gambar dalam tabel pemilihan dengan id "dipilih"
   document.querySelectorAll("#dipilih td img").forEach((img) => {
-    karakterTerpilih.push(img.src); // Menyimpan URL gambar
+    karakterTerpilih.push(img.getAttribute("data-src") || img.src); // Menyimpan URL gambar dari data-src atau src
   });
 
   if (karakterTerpilih.length === 0) {
@@ -296,11 +298,8 @@ function kirimKarakter() {
   }
 
   // Simpan ke LocalStorage
-  localStorage.setItem(
-    "karakterTerpilih",
-    JSON.stringify(karakterTerpilih)
-  );
+  localStorage.setItem("karakterTerpilih", JSON.stringify(karakterTerpilih));
 
-  // Redirect ke halaman berikutnya
+  // Redirect ke halaman berikutnya (misalnya, halaman 'asset.html')
   window.location.href = "LightCone.php";
 }

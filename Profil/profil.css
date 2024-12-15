@@ -114,6 +114,12 @@ h1 {
   gap: 25px;
 }
 
+table {
+  color: #fff;
+  width: 90%;
+  height: 98px;
+}
+
 .info_akun {
   color: #fff;
   text-align: center;
