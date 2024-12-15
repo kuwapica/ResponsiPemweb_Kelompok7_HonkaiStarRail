@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arapey:ital@0;1&family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&family=Noto+Serif+JP:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radley:ital@0;1&family=Rubik:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../Asset/beranda_bg.png") no-repeat;
+  background-size: cover;
+  background-color: currentColor;
+  gap: 15px;
+}
+
+
+
+.nav {
+  font-family: "DM Serif Display";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 35px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1200px; */
+  background-color: rgba(247, 247, 247, 0.329);
+  /* max-height: 100%; */
+  /* margin: 20px auto; */
+  border-radius: 20px;
+  gap: 20px;
+}
+
+p {
+  /* margin-top: 20px; */
+  font-family: "Radley";
+  color: #fff;
+  max-width: 90%;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  max-width: 90%;
+  text-shadow: 3px 0px 0px #040c1bf2;
+  /* Properti bayangan teks */
+  color: #9a0213;
+  font-family: "DM Serif Display";
+}
+
+.kiri {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  width: 50%;
+}
+
+.kanan {
+  display: grid;
+  width: 40%;
+  margin-left: 50px;
+  gap: 5px;
+
+}
+
+.kanan__img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: -20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  /* Teks rata tengah */
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: -20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  /* Teks rata tengah */
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.kiri table {
+  height: 350px;
+}
+
+.kiri td {
+  border: 3px solid rgba(5, 4, 4, 0.692);
+  /* Border untuk setiap sel */
+  text-align: center;
+  /* Teks di tengah */
+  position: relative;
+  /* Agar hover dapat mengcover area sel secara penuh */
+  width: 100px;
+  /* Tentukan lebar */
+  height: 100px;
+  /* Tentukan tinggi */
+}
+
+td:hover {
+  background-color: rgba(100, 100, 116, 0.2);
+  /* Warna latar belakang saat hover */
+  border: 3px solid blue;
+  /* Border menjadi biru */
+}
+
+
+.kiri img {
+  height: 130px;
+  width: auto;
+}
+
+
+button {
+  padding: 20px 30px;
+  border: none;
+  font-size: 24px;
+  background: linear-gradient(#5d5188db 0%, #171422db 100%);
+  color: white;
+  font-weight: 800;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'DM Serif Display';
+  font-weight: 500;
+  display: flex;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.kanan td {
+  padding: 10px;
+  height: 100px;
+  font-size: 32px;
+  border: 3px solid;
+}
+
+td img {
+  height: 100px;
+  width: auto;
+
+}

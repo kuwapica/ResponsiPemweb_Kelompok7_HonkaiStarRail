@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("../Asset/beranda\ bg.png") no-repeat;
+  background: url("../Asset/beranda_bg.png") no-repeat;
   background-size: cover;
   background-color: currentColor;
 }
@@ -23,7 +23,8 @@ header {
   margin-top: 5px;
   background-color: rgba(247, 247, 247, 0.329);
   color: #fff;
-  border-radius: 10px;;
+  border-radius: 10px;
+  ;
 }
 
 .nav {
@@ -61,22 +62,25 @@ header {
   padding: 8px 15px 8px 15px;
   border-radius: 10px;
 }
-main{
-    background-color: rgba(247, 247, 247, 0.329);
-    width: 100%;
-    /* max-width: 1200px; */
-  
-    margin: 8px auto;
-    border-radius: 20px;
+
+main {
+  background-color: rgba(247, 247, 247, 0.329);
+  width: 100%;
+  /* max-width: 1200px; */
+
+  margin: 8px auto;
+  border-radius: 20px;
 
 }
-.main{
+
+.main {
   background-color: rgba(247, 247, 247, 0.329);
   width: 100%;
   border-radius: 20px;
   text-align: center;
   padding-top: 18px;
 }
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -84,7 +88,7 @@ main{
 
 }
 
-img{
+img {
   height: 409px;
 }
 
@@ -92,33 +96,38 @@ h1 {
   text-align: center;
   font-size: 38px;
   max-width: 90%;
-  text-shadow: 3px 0px 0px #040c1bf2; 
+  text-shadow: 3px 0px 0px #040c1bf2;
   color: #9a0213;
   font-family: "DM Serif Display";
 }
+
 .kiri {
   display: flex;
-  
+
   gap: 20px;
 
 }
-.kanan{
-display: flex;
-flex-direction: column;
-gap: 25px;
-} 
-input{
-color: #fff;
-text-align: center;
-width: 300px;
-height: 45px;
-border-radius: 40px;
-background-color: #0a0a0a85;
+
+.kanan {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.info_akun {
+  color: #fff;
+  text-align: center;
+  width: 300px;
+  height: 45px;
+  border-radius: 40px;
+  background-color: #0a0a0a85;
+  margin-bottom: 10px;
 }
 
 footer {
   width: 100%;
 }
+
 /* .toolbar {
    font-size: 20px;
    } */
@@ -145,34 +154,39 @@ button a {
 button:hover {
   background-color: #0056b3;
 }
-.menu{
+
+.menu {
   display: flex;
   justify-content: space-around;
   gap: 500px;
 }
-h2{
+
+h2 {
   color: #9888D1;
   text-align: center;
   font-size: 32px;
-  text-shadow: 3px 0px 0px #040c1bf2; 
+  text-shadow: 3px 0px 0px #040c1bf2;
 }
-table{
+
+table {
   color: #fff;
-  width: 98%;
-  height: 350px;
+
+
 }
+
 /* ... your existing CSS ... */
-.judul{
-background-color: #0000006e;
-color: #fff;
-border-radius: 20px;
-display: flex;
-padding: 10px 20px 10px 40px;
+.judul {
+  background-color: #0000006e;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px 20px 10px 40px;
 }
-.judul h1{
-font-size: 26px;
-white-space: nowrap;
-color: white;
+
+.judul h1 {
+  font-size: 26px;
+  white-space: nowrap;
+  color: white;
 
 }
 
@@ -192,7 +206,7 @@ color: white;
   background-color: #f9f9f960;
   min-width: 240px;
   border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 

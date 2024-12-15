@@ -11,7 +11,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("../Asset/beranda\ bg.png") no-repeat;
+  background: url("../Asset/beranda_bg.png") no-repeat;
+  ;
   background-size: cover;
   background-color: currentColor;
 }
@@ -24,6 +25,7 @@ body {
   flex-direction: row-reverse;
   margin-right: 125px;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -33,32 +35,38 @@ body {
   background-color: rgba(247, 247, 247, 0.329);
   margin: 20px auto;
   border-radius: 40px;
-  padding:40px 200px 40px  200px ;
+  padding: 40px 200px 40px 200px;
 }
+
 h1 {
   text-align: center;
   font-size: 38px;
   max-width: 100%;
-  text-shadow: 3px 0px 0px #040c1bf2; /* Properti bayangan teks */
+  text-shadow: 3px 0px 0px #040c1bf2;
+  /* Properti bayangan teks */
   color: #9a0213;
   font-family: "DM Serif Display";
   white-space: nowrap;
 }
-h2{
+
+h2 {
   text-align: center;
   font-size: 32px;
   max-width: 100%;
   white-space: nowrap;
 }
-.poin{
+
+.poin {
   display: flex;
   height: 200px;
   justify-content: center;
 }
-.poin img{
+
+.poin img {
   height: 200px;
 }
-.sub-poin{
+
+.sub-poin {
   background-color: #0716438c;
   padding: 20px 50px 20px 50px;
   border-radius: 20px;
