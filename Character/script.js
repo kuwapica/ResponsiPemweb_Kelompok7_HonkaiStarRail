@@ -302,5 +302,5 @@ function kirimKarakter() {
   );
 
   // Redirect ke halaman berikutnya
-  window.location.href = "light_cone/LightCone.php";
+  window.location.href = "LightCone.php";
 }
