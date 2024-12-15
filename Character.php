@@ -24,28 +24,28 @@
           </div>
           <div>
             <table style="margin-top: 10px;" id="dipilih">
-              <td onclick="tempatkanGambar(this)">+</td>
-              <td onclick="tempatkanGambar(this)">+</td>
-              <td onclick="tempatkanGambar(this)">+</td>
+            <td onclick="tempatkanGambar(this)" data-src="">+</td>
+            <td onclick="tempatkanGambar(this)" data-src="">+</td>
+            <td onclick="tempatkanGambar(this)" data-src="">+</td>
             </table>
           </div>
         </div>
         <div class="kiri">
           <table>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Firefly_splashArt.png" alt="" class="Firefly"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Jiaoqiu_splashArt.png" alt="" class="Jiaoqiu"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/topaz_splashArt.png" alt="" class="Topaz"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/Firefly_splashArt.png" data-src="Asset/Firefly_splashArt.png" alt="" class="Firefly"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/Jiaoqiu_splashArt.png" data-src="Asset/Jiaoqiu_splashArt.png" alt="" class="Jiaoqiu"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/topaz_splashArt.png" data-src="Asset/topaz_splashArt.png" alt="" class="Topaz"></td>
             </tr>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/jingliu_splashArt.png" alt="" class="Jingliu"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Gepard_splashArt.png" alt="" class="Gepard"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/RuanMei_splashArt.png" alt="" class="RuanMei"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/jingliu_splashArt.png" data-src="Asset/jingliu_splashArt.png" alt="" class="Jingliu"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/Gepard_splashArt.png" data-src="Asset/Gepard_splashArt.png" alt="" class="Gepard"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/RuanMei_splashArt.png" data-src="Asset/RuanMei_splashArt.png" alt="" class="RuanMei"></td>
             </tr>
             <tr>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Feixiao_splashArt.png" alt="" class="Feixiao"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/BlackSwan_splashArt.png" alt="" class="BlackSwan"></td>
-              <td><img  onclick="pilihGambar(this)" src="Asset/Huohuo_splashArt.png" alt="" class="Huohuo"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/Feixiao_splashArt.png" data-src="Asset/Feixiao_splashArt.png" alt="" class="Feixiao"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/BlackSwan_splashArt.png" data-src="Asset/BlackSwan_splashArt.png" alt="" class="BlackSwan"></td>
+              <td><img  onclick="pilihGambar(this)" src="Asset/Huohuo_splashArt.png" data-src="Asset/Huohuo_splashArt.png" alt="" class="Huohuo"></td>
             </tr>
           </table>
         </div>
@@ -69,5 +69,8 @@
       </nav>
     </footer>
     <script src="Character/script.js"></script>
+    <script>
+
+    </script>
   </body>
 </html>

@@ -24,7 +24,7 @@
     </main>
     <footer>
         <nav class="nav bd-grid">
-          <div><button><a href="#">NEXT</a></button></div>
+          <div><button><a href="profil.php">RESULT</a></button></div>
         </nav>
       </footer>
     <script src="script.js"></script>

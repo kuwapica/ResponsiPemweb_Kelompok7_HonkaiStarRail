@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History</title>
-    <link rel="stylesheet" href="profil/profil.css">
+    <link rel="stylesheet" href="Profil/profil.css">
 </head>
 <body>
     <header>
@@ -36,7 +36,6 @@
                 </span></h1>
             </div>
                 
-           
             <h1>Profil User</h1>
         </div>
         <h2>Perlawanan Babak 1</h2>

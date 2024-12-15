@@ -1,3 +1,34 @@
+<?php
+include 'function.php'; // Pastikan koneksi database Anda di sini
+
+// Terima data JSON dari fetch API
+$inputData = json_decode(file_get_contents("php://input"), true);
+
+if (isset($inputData['characters']) && is_array($inputData['characters'])) {
+    $id_user = 1; // Contoh ID pengguna, ganti dengan data dari sesi atau autentikasi
+    foreach ($inputData['characters'] as $index => $charName) {
+        $id_selectchar = uniqid(); // Membuat ID unik untuk setiap karakter
+
+        // Prepared statement untuk menyimpan ke database
+        $stmt = $koneksi->prepare("INSERT INTO selected_chara (id_selectchar, id_user, id_chara) VALUES (?, ?, ?)");
+        $stmt->bind_param("sss", $id_selectchar, $id_user, $charName);
+
+        if ($stmt->execute()) {
+            echo "Karakter $charName berhasil disimpan.<br>";
+        } else {
+            echo "Error: " . $stmt->error . "<br>";
+        }
+
+        $stmt->close();
+    }
+} else {
+    echo "Tidak ada karakter yang dipilih.";
+}
+
+$koneksi->close();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>

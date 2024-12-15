@@ -117,7 +117,7 @@
     <footer>
       <nav class="nav bd-grid">
         <div>
-          <button><a href="#">NEXT</a></button>
+          <button><a href="game1.php">NEXT</a></button>
         </div>
       </nav>
     </footer>
